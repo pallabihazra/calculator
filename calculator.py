@@ -32,7 +32,7 @@ def div(num1,num2):
 box=Tk()
 box.minsize(400,400)
 box.maxsize(600,600)
-box.title('Form')
+box.title('Calculator')
 
 num1=tkinter.StringVar()
 num2=tkinter.StringVar()
@@ -68,7 +68,7 @@ btn3.place(x=140,y=150)
 btn4=Button(box,text='*',width=5,height=3,command=multiplication)  
 btn4.place(x=190,y=150)
 
-output=Label(box,text="Enter the 2nd no.")
+output=Label(box,text="Result : ")
 output.place(x=10,y=220)
 e=Entry(box,text="",textvariable=res)
 e.place(x=115,y=220)
